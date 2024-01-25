@@ -3,12 +3,10 @@ package org.example.lesson2.ex5;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class NumbersTest {
 
     @Test
-    void isNumberEven() {
+    void shouldReturnTrueIfNumberEven() {
         //given
         int number = 6;
         boolean expResult = true;
