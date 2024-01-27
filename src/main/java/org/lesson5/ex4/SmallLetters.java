@@ -7,7 +7,7 @@ public class SmallLetters implements TextFormatter {
 
     @Override
     public String formatText(String tex) {
-        String text = null;
+        String text = new String();
         return text.toLowerCase();
 
     }
