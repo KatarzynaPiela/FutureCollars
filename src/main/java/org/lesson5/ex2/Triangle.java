@@ -1,6 +1,6 @@
 package org.lesson5.ex2;
 
-public class Triangle extends Shape implements trójkąt {
+public class Triangle extends Shape {
     private double a;
 
     public Triangle(double sideA, double sideB, double sideC) {
@@ -15,13 +15,9 @@ public class Triangle extends Shape implements trójkąt {
         return Math.sqrt(a * (a - sideA) * (a - sideB) * (a - sideC));
     }
 
-    @Override
-    public double getPerimeter() {
-        return 0;
-    }
 
     @Override
-    public double getPerimetr() {
+    public double getPerimeter() {
         return sideA + sideB + sideC;
     }
 

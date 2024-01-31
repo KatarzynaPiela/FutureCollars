@@ -13,9 +13,7 @@ public abstract class Shape {
         this.sideB = sideB;
     }
 
-    public double getArea() {
-        return 0;
-    }
+    public abstract double getArea();
 
     public abstract double getPerimeter();
 }
