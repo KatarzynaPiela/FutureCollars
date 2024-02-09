@@ -5,11 +5,12 @@ public class Triangle {
     private double height;
 
     public Triangle(double width, double height) {
-        this.width = width;
-        this.height = height;
+        this.width = 20;
+        this.height =5;
     }
     @Override
     public String toString() {
-        return "Triangle{width=<wartośćPolaWitdh>, height=<wartośćPolaHeight>}";
+        return "Triangle{width=<"+ width + ">, height=<"+ height + ">}";
+
     }
 }
