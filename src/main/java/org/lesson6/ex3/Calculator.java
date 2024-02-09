@@ -23,17 +23,5 @@ public class Calculator {
         return result;
     }
 
-    private Calculator type;
-    private String Calculator;
-    public byte[] formatCalculator2pdf() {
-        return new byte[]; format();
-        {
-
-        }
-    }
-    private void format() {
-    }
-
-
 }
 
