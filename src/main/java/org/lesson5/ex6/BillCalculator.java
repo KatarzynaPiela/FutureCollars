@@ -5,10 +5,10 @@ public class BillCalculator {
         return billValue + serviceFree;
     }
     static double calculate(double billValue, float serviceFree, double discount) {
-        return billValue + serviceFree + discount;
+        return billValue - discount * billValue;
     }
     static double calculate(double billValue, float serviceFree, short takeawayPackaging) {
-        return serviceFree + takeawayPackaging - billValue;
+        return serviceFree + takeawayPackaging + billValue;
     }
 }
 
