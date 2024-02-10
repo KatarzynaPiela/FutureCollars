@@ -7,10 +7,14 @@ public class FizzBuzz {
                 //wyświetl fizz
             } else if (isDivisible(i, 5)) {
                 // wyświetl buzz
-            } else if (isDivisible(i, 3 / 5)) {
+            boolean test =  (isDivisible(3) && isDivisible(5));
                 // wyświetl fizzbuzz
             }
         }
+    }
+
+    private static boolean isDivisible(int i) {
+        return false;
     }
 
     public static boolean isDivisible(int number, int divider) {
