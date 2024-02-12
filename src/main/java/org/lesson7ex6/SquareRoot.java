@@ -1,13 +1,10 @@
 package org.lesson7ex6;
 
 public class SquareRoot {
-    public static int add(int number1, int number2) {
-        return number1 + number2;
-    }
 
-    public static double calculateRoot(double number) throws IllegalAccessException {
+    public static double calculateRoot(double number) throws IllegalArgumentException {
         if (number < 0) {
-            throw new IllegalAccessException();
+            throw new IllegalArgumentException();
         }
         return Math.sqrt(number);
     }
