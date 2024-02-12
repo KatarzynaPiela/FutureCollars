@@ -11,6 +11,6 @@ public class FileExample {
     public static void main(String[]args) throws IOException {
         File file = new File(filePath);
         String text = Files.readString(Path.of(filePath));
-        System.out.println(text.getBytes());
+        System.out.println(text.length());
     }
 }
