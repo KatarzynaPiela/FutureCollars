@@ -11,6 +11,8 @@ public class FileExample {
 
         try {
             String filePath = "C:\\Users\\48576\\Documents\\Repozytorium\\FutureCollars\\src\\main\\java\\org\\lesson7\\ex3\\data\\data.txt";
+            int lineNumber = 0;
+            String line;
             BufferedReader
         } catch (IOException e) {
             throw new RuntimeException(e);
