@@ -21,7 +21,7 @@ public class FileExample {
             throw new IllegalArgumentException("There's no such file exist");
         } else {
             try (BufferedReader reader = new BufferedReader(new FileReader(pathName))) {
-                while ((text = reader.readLine()) != null) { // ok to zapier
+                while ((text = reader.readLine()) != null) {
                     lineText.add(text);
                 }
             } catch (FileNotFoundException e) {
