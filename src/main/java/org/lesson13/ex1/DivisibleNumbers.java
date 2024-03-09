@@ -9,12 +9,14 @@ import static java.util.Locale.filter;
 public class DivisibleNumbers {
 
     public static void main(String[] args) {
+        getDivisibleNumbers(1, 150, 3);
+    }
+
+    static void getDivisibleNumbers (int rangeFrom, int rangeTo, int divisor) {
         List<Integer> divisibleNumber = new ArrayList<>();
-        IntStream intStream = IntStream.of(1,150);
-        intStream.filter(number -> number % 3 == 0);
-                intStream.forEach(divisibleNumber::add);
+        IntStream intStream = IntStream.of(rangeFrom,rangeTo);
+        intStream.filter(number -> number % divisor == 0);
+        intStream.forEach(divisibleNumber::add);
         System.out.println(divisibleNumber);
-
-
-}
+    }
 }
